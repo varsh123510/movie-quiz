@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kollywood Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Welcome Page -->
+  <div id="welcome-screen" class="quiz-container">
+    <h1>🎬 Tamil Movie Lovers Quiz 🎉</h1>
+    <p>Test your Kollywood knowledge with fun & tricky questions!<br><br>Are you the ultimate fan? 💥</p>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Page -->
+  <div id="quiz-screen" class="quiz-container" style="display: none;">
+    <h2 id="question">Question appears here</h2>
+    <div id="options"></div>
+    <button onclick="nextQuestion()">Next</button>
+    <div id="score-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
